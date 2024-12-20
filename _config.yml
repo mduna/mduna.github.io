@@ -1,0 +1,48 @@
+# Site Settings
+title: Your Site Title
+description: A brief description of your website
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://mduna.github.io" # your site's URL
+
+# Build Settings
+markdown: kramdown
+theme: minima  # or your chosen theme
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Navigation
+# Add pages you want to appear in the navigation
+header_pages:
+  - index.html
+  - qa.html
+  - about.html
+
+# Social Media Links (optional)
+social_links:
+  github: your-github-username
+  linkedin: your-linkedin-username
+  twitter: your-twitter-handle
+
+# Default front matter settings
+defaults:
+  - scope:
+      path: "" # an empty string means all files in the project
+    values:
+      layout: default
+      author: Your Name
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+
+# Collections (optional)
+collections:
+  posts:
+    output: true
+    permalink: /blog/:year/:month/:day/:title/
