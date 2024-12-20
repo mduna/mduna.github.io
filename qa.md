@@ -60,3 +60,36 @@ Codify that all direct furnishing entities must be included in provider director
 - Consistency: Ensures that all MA plans adhere to the same definitions and standards.
 - Transparency: Makes it easier for beneficiaries to identify and access community-focused services.
 - Safety and Trust: Enhances beneficiary trust by providing accurate, standardized information about providers, particularly those offering in-home services.
+
+### Proposed Requirements for MA Provider Directory Sharing 
+
+1. Submission to CMS:
+- MA organizations are required to submit their provider directory data to CMS to populate the Medicare Plan Finder (MPF).
+- This ensures beneficiaries have access to consistent, accurate, and comprehensive provider information when evaluating MA plans.
+
+2. Accuracy and Consistency:
+- MA organizations must attest that the provider directory data:
+  - Is accurate.
+  - Aligns with the data submitted for CMS’s network adequacy reviews.
+- This alignment is critical to prevent discrepancies between directories and network adequacy data.
+
+3. Key Data Elements to Be Included:
+- Cultural and linguistic capabilities.
+- Specialties and services offered.  
+This information is particularly important for underserved communities and beneficiaries with specific needs.
+
+4. Timeline for Implementation:
+- The requirement to operationalize provider directories for testing purposes is proposed to begin in **Summer 2025**.
+- Full implementation is required by **October 1, 2026**, for the contract year 2026.
+
+5. Goal of the Requirement:
+- To empower beneficiaries with accurate, transparent information when choosing MA plans.
+- To enhance the usability and accessibility of online resources like the MPF.  
+
+**Benefits of the Proposed Requirement**
+- Informed Decision-Making:  
+Beneficiaries can better evaluate coverage options with clear and detailed provider information.
+- Transparency:  
+Prevents misleading or inaccurate directory data that could result in poor beneficiary experiences.
+- Equity:  
+Improves access to information for underserved and diverse communities by including culturally relevant details.
