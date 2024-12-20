@@ -1,0 +1,46 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.tab-nav {
+    width: 100%;
+    background-color: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+    margin-bottom: 2rem;
+    
+    ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        gap: 1px;
+    }
+
+    li {
+        margin: 0;
+    }
+
+    a {
+        display: block;
+        padding: 1rem 2rem;
+        text-decoration: none;
+        color: #495057;
+        background-color: #e9ecef;
+        border-radius: 0.5rem 0.5rem 0 0;
+        transition: all 0.3s ease;
+        
+        &:hover {
+            background-color: #dee2e6;
+        }
+        
+        &.active {
+            background-color: white;
+            color: #212529;
+            border: 2px solid #dee2e6;
+            border-bottom: 2px solid white;
+            margin-bottom: -2px;
+            font-weight: bold;
+        }
+    }
+}

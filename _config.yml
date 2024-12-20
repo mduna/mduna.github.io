@@ -1,6 +1,6 @@
 # Site Settings
-title: Your Site Title
-description: A brief description of your website
+title: Healthcare Services and Providers Directory Information
+description: Provider the information related to Healthcare Services and Providers Directory
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://mduna.github.io" # your site's URL
 
@@ -15,9 +15,9 @@ plugins:
 # Navigation
 # Add pages you want to appear in the navigation
 header_pages:
-  - index.html
-  - qa.html
-  - about.html
+  - index.md
+  - qa.md
+  - about.md
 
 # Social Media Links (optional)
 social_links:
