@@ -17,6 +17,7 @@ plugins:
 header_pages:
   - index.md
   - qa.md
+  - cms.md
   - about.md
 
 # Social Media Links (optional)

@@ -31,6 +31,8 @@ MA plans can receive credit towards time and distance standards for providing te
 - [42 CFR 422.116: https](//www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422)
 - [Understanding Medicare Advantage Network Adequacy Requirements](https://www.cms.gov/medicare/health-drug-plans/network-adequacy)
 
+## [The current MA and Section 1876 Cost Plan Provider Directory Model](https://www.cms.gov/files/document/cy2021-maandsection1876costplanproviderdirectorymodel7-08-2020.pdf)
+
 
 ## What are in HHS CMS-4208-p RIN [0938-AV40 ](https://www.govinfo.gov/content/pkg/FR-2024-12-10/pdf/2024-27939.pdf)
 
@@ -73,7 +75,7 @@ Codify that all direct furnishing entities must be included in provider director
   - Aligns with the data submitted for CMS’s network adequacy reviews.
 - This alignment is critical to prevent discrepancies between directories and network adequacy data.
 
-3. Key Data Elements to Be Included:
+3. Key Data Elements to Be Added:
 - Cultural and linguistic capabilities.
 - Specialties and services offered.  
 This information is particularly important for underserved communities and beneficiaries with specific needs.
