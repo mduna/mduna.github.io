@@ -32,9 +32,16 @@ MA plans can receive credit towards time and distance standards for providing te
 - [Understanding Medicare Advantage Network Adequacy Requirements](https://www.cms.gov/medicare/health-drug-plans/network-adequacy)
 
 ## [The current MA and Section 1876 Cost Plan Provider Directory Model](https://www.cms.gov/files/document/cy2021-maandsection1876costplanproviderdirectorymodel7-08-2020.pdf)
+**Regulatory Requirements**
+CMS regulations at [42 CFR 422.111(b)(3)(i)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-C/section-422.111) require organizations to provide the number, mix, and distribution (addresses) of providers from whom enrollees may reasonably be expected to obtain services. This information must be provided to each enrollee in a clear, accurate, and standardized form [(42 CFR 422.111(a)(2))](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-C/section-422.111). Regulations 
+at [42 CFR 422.504(a)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-K/section-422.504) and [422.504(a)(4)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-K/section-422.504) require organizations to adhere to all regulations and general instructions and to 
+disclose information to beneficiaries in the manner and the form prescribed by CMS as required under [42 CFR 422.111](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-C/section-422.111). In accordance with [42 CFR 422.111(h)(2)(ii)](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-C/section-422.111), each organization must post an online provider directory on its website. Section 1876 cost plan regulations at [42 CFR 417.427](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-417/subpart-K/section-417.427) require cost plans to adhere to the MA regulations at [42 CFR 422.111](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-C/section-422.111. In addition, 
+section 1876 cost plans are required to comply with the applicable requirements and conditions 
+set forth in this subpart and in general instructions issued by CMS [(42 CFR 417.472(b))](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-417/subpart-K/section-417.427)
 
 
 ## What are in HHS CMS-4208-p RIN [0938-AV40 ](https://www.govinfo.gov/content/pkg/FR-2024-12-10/pdf/2024-27939.pdf)
+
 
 ### Codification of CBOs and Related Entities
 1. **What Does Codifying Mean in This Context?**  
