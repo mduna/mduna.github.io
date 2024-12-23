@@ -94,16 +94,6 @@ Plans that tier cost sharing of medical benefits for certain providers must use 
 | Outpatient Mental Health Prviders | Yes   | Yes   | Yes   | Yes   | Yes   | Yes   |
 | Pharmacies | Yes   | Yes   | Yes   | Yes   | Yes   | Yes   |
 
-```mermaid
-graph TD
-  A[Start] --> B{Decision?}
-  B --> |Yes| C[Prcess 1]
-  B --> |No| D[Process2]
-  C --> E[End]
-  D --> E
-
-
-
 
 ## What are in HHS CMS-4208-p RIN [0938-AV40 ](https://www.govinfo.gov/content/pkg/FR-2024-12-10/pdf/2024-27939.pdf)
 
