@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Page Title
+title: Question and Answer
 ---
 
 ## What is CMS MA Network Adquacy Requirements?
@@ -82,6 +82,8 @@ Plans that tier cost sharing of medical benefits for certain providers must use 
 - Non-English languages spoken by provider
 - Provider website address
 - Accessibility for people with physical disabilitie
+
+**Data Items for Provider Directory**
 
 | Type | Name | Accepting New Patients? if applicable | address | Phone | website or e-mail address (optional) | for PCP support ePrescibing (optional) |
 | ===== | ===== | ===== | ===== | ===== | ===== | ===== |
