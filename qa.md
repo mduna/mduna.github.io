@@ -95,6 +95,11 @@ Plans that tier cost sharing of medical benefits for certain providers must use 
 | Pharmacies | Yes   | Yes   | Yes   | Yes   | Yes   | Yes   |
 
 
+<Figure>
+  {%include practitionerRole.svg%}
+</Figure>
+
+
 
 ## What are in HHS CMS-4208-p RIN [0938-AV40 ](https://www.govinfo.gov/content/pkg/FR-2024-12-10/pdf/2024-27939.pdf)
 
