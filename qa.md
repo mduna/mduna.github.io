@@ -94,10 +94,14 @@ Plans that tier cost sharing of medical benefits for certain providers must use 
 | Outpatient Mental Health Prviders | Yes   | Yes   | Yes   | Yes   | Yes   | Yes   |
 | Pharmacies | Yes   | Yes   | Yes   | Yes   | Yes   | Yes   |
 
+```mermaid
+graph TD
+  A[Start] --> B{Decision?}
+  B --> |Yes| C[Prcess 1]
+  B --> |No| D[Process2]
+  C --> E[End]
+  D --> E
 
-<Figure>
-  {%include practitionerRole.svg%}
-</Figure>
 
 
 
