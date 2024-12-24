@@ -95,6 +95,33 @@ Plans that tier cost sharing of medical benefits for certain providers must use 
 | Pharmacies | Yes   | Yes   | Yes   | Yes   | Yes   | Yes   |
 
 
+## What is CMS HSD?
+CMS HSD typically refers to the Centers for Medicare & Medicaid Services (CMS) Health Services Delivery (HSD) requirements. These requirements are used to ensure that 
+Medicare Advantage Organizations (MAOs) and other CMS-regulated plans have an adequate network of providers to deliver health services to their beneficiaries.
+
+**Key Aspects of CMS HSD:**
+1. Network Adequacy:  
+CMS establishes specific criteria for network adequacy, including time and distance standards that providers must meet to ensure beneficiaries have reasonable access to care.
+
+2. Provider Types:  
+The HSD requirements often include a range of provider types, such as primary care physicians, specialists, hospitals, and other healthcare facilities.
+
+3. Service Areas:
+These requirements are evaluated based on the plan's service area, which can vary by geography (e.g., urban, rural).
+
+4. Validation and Submission:  
+Plans must submit their HSD tables to CMS to demonstrate compliance. These tables include information about the providers in the network, their specialties, locations, 
+and the services they provide.
+
+5. Monitoring and Compliance:  
+CMS conducts periodic reviews to ensure compliance with HSD standards. Non-compliance can result in penalties or corrective actions.
+
+6. Importance:  
+HSD requirements aim to protect beneficiaries by ensuring that they have access to timely and appropriate care within their health plan's network.
+
+**For example:**
+[2025-hsd-reference-file-update-12032024](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cms.gov%2Ffiles%2Fdocument%2F2025-hsd-reference-file-updated-12032024.xlsx&wdOrigin=BROWSELINK)
+
 ## What are in HHS CMS-4208-p RIN [0938-AV40 ](https://www.govinfo.gov/content/pkg/FR-2024-12-10/pdf/2024-27939.pdf)
 
 
