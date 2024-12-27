@@ -3,6 +3,94 @@ layout: default
 title: Question and Answer
 ---
 
+## What data items are required by CMS for Provicer Directory
+### Essential information
+- Provider Name: Full legal name of the provider (individual or organization).   
+- Provider Type: Type of healthcare professional (e.g., physician, nurse practitioner, therapist).
+- Specialties: Medical and surgical specialties.   
+- Addresses: Practice address, Mailing address (if different)
+- Phone Numbers: Office phone number, Fax number (if available)
+- Contact Information: Email address (if available), Website URL (if available)   
+- Network Participation: In-network status for the specific plan, Any applicable restrictions (e.g., limited network)
+- Languages Spoken: Languages spoken by the provider
+
+### Additional Information (May vary by plan type)
+- Accepting New Patients: Indication of whether the provider is accepting new patients.   
+- Gender: Gender of the provider.
+- Credentials: Medical degrees, Board certifications
+- Hospital Affiliations: Hospitals where the provider has admitting privileges
+- Accessibility: Information about accessibility features for patients with disabilities.   
+- Cultural and Linguistic Services: Availability of interpreters or other language support services.
+
+### Important Notes
+- Accuracy: The information in the provider directory must be accurate and up-to-date.   
+- Accessibility: The directory must be easily accessible to enrollees and the public.   
+- Searchability: The directory must be searchable by various criteria, such as provider name, specialty, location, and network status.
+
+## [Provider Directory API CMS requirement](https://www.cms.gov/priorities/key-initiatives/burden-reduction/interoperability/frequently-asked-questions/provider-directory-api)
+Medicare Advantage (MA) organizations, Medicaid state agencies, Medicaid managed care plans, Children’s Health Insurance Program (CHIP) state agencies and CHIP managed care entities are required to offer a public facing Provider Directory API which must include **data on a payer’s network of contracted providers**. 
+
+## [NPPES Individual Provider Profile](https://nppes.cms.hhs.gov/webhelp/nppeshelp/INDIVIDUAL%20PROVIDER%20PROFILE%20PAGE.html#)
+- Provide the provider’s full legal name. This name must match the name on file with the Social Security Administration (SSA). First and last names are required for initial applications.
+1. Name
+- Other Name (if Applicable)
+- Prefix 
+- First Name
+- Middle Name
+- Last Name
+- Suffix
+
+2. Credential(s)
+3. Type of Other Name: Former Name, Professional Name, Other Name
+4. Other Identifying information
+- Date of Birth
+- Social Security Number
+- State of Birth
+- Gender
+5. Is the Provider a Sole Proprietor
+6. Other Optional Infomration
+- Ethnicity
+- Race
+- Language(s) spoken
+
+## [NPPES Organization Provider Provider Profile](https://nppes.cms.hhs.gov/webhelp/nppeshelp/ORGANIZATIONAL%20PROVIDER%20PROFILE%20PAGE.html)
+1. Employer Identification Number (EIN)
+2. Organization Name (Legal Business Name)
+3. Is the Organization a subpart
+4. Is the parent EIN the same as subpart EIN
+5. Parent Organization EIN
+6. Parent Organization Legal Business Name (LBN)
+7. Other Name
+8. Type of Other Name (Doing Business As, Former Legal Business Name, Other Name)
+9. Organizational Other Names Grid and Navigation Buttons
+10. Authorized Official for the Organization
+11. Orthorized Official Name and other details
+- Prefix
+- First Name
+- Middle Name
+- Last Name
+- Suffix
+- Credentials 
+- Title/Position
+- Telephone Number
+12. Address
+- Business Mailing Address
+- Practice Location Address
+13. Languages Spoken
+14. Office hours
+15. Accessibility
+
+## [NPPES Health Information Exchange Page](https://nppes.cms.hhs.gov/webhelp/nppeshelp/HEALTH%20INFORMATION%20EXCHANGE.html)
+Health Information Exchange (HIE) is the mobilization of health care information electronically across organizations within a region, community or hospital system. HIE provides 
+the capability to electronically move clinical information among different health care information systems.
+
+This information is collected in NPPES to facilitate the electronic exchange of health care information such as Medical records, order and referrals, etc., in a safe and secure fashion. 
+Providers are encouraged to enter Endpoint information in NPPES to promote interoperability in health care, however, this information is not required to obtain an NPI. 
+Providers can still obtain an NPI without providing such information.
+
+
+
+
 ## What is CMS MA Network Adquacy Requirements?
 CMS has strict network adequacy requirements for Medicare Advantage (MA) plans, designed to ensure that enrollees have access to a sufficient number of providers and 
 facilities to meet their healthcare needs. These requirements are outlined in the [Code of Federal Regulations (CFR) Title 42, Part 422.116.](https://www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422/subpart-C/section-422.116)
@@ -28,8 +116,7 @@ MA plans can receive credit towards time and distance standards for providing te
 
 ### Resources
 - [CMS Network Adequacy Guidance](https://www.cms.gov/medicare/health-drug-plans/network-adequacy)
-- [42 CFR 422.116: https](//www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422)
-- [Understanding Medicare Advantage Network Adequacy Requirements](https://www.cms.gov/medicare/health-drug-plans/network-adequacy)
+- [42 CFR 422.116](//www.ecfr.gov/current/title-42/chapter-IV/subchapter-B/part-422)
 
 ## [The current MA and Section 1876 Cost Plan Provider Directory Model](https://www.cms.gov/files/document/cy2021-maandsection1876costplanproviderdirectorymodel7-08-2020.pdf)
 **Regulatory Requirements**
@@ -65,15 +152,24 @@ who are students may access the college’s student health service);
 - Providers who will leave the network as of a specified contract termination date (Plans must list this date next to the provider’s name if the termination date is known/final).
 
 **Sub-Networks**
-If a plan offers sub-networks, it may develop a separate provider directory for each sub-network. Enrollees in a sub-network may be provided a directory reflecting their sub-network, but the directory also must clearly state that enrollees are not limited to the providers listed in the sub-network directory. The plan must provide a link where the enrollee can obtain a directory that includes the plan’s entire provider network. This larger directory may be made available online or furnished in hard copy upon request by the enrollee. In addition, the plan must describe how enrollees may request access to providers outside of the sub-network. For more information on sub-networks, please refer to the network adequacy guidance, [located at](https://www.cms.gov/medicare/health-drug-plans/medicare-advantage-application).
+If a plan offers sub-networks, it may develop a separate provider directory for each sub-network. Enrollees in a sub-network may be provided a directory reflecting their sub-network, 
+but the directory also must clearly state that enrollees are not limited to the providers listed in the sub-network directory. The plan must provide a link where the enrollee can obtain 
+a directory that includes the plan’s entire provider network. This larger directory may be made available online or furnished in hard copy upon request by the enrollee. In addition, the 
+plan must describe how enrollees may request access to providers outside of the sub-network. For more information on sub-networks, please refer to the network adequacy 
+guidance, [located at](https://www.cms.gov/medicare/health-drug-plans/medicare-advantage-application).
 
 **Provider-Specific Plans**
-A provider-specific plan (PSP) must develop a separate directorywhich clearly identifies available providers in the PSP network. A contract-level provider directory cannot be used for the purpose of communicating a PSP network to potential beneficiaries or enrollees. For example, a plan cannot simply add symbols or information to the broader network’s directory to show which providers are in the more limited PSP network.
+A provider-specific plan (PSP) must develop a separate directorywhich clearly identifies available providers in the PSP network. A contract-level provider directory cannot be used for 
+the purpose of communicating a PSP network to potential beneficiaries or enrollees. For example, a plan cannot simply add symbols or information to the broader network’s directory 
+to show which providers are in the more limited PSP network.
 
 **Different Cost Sharing Arrangements/Tiering.**  
-Plans that reduce or eliminate cost sharing for enrollees that use certain providers (e.g., through the use of MA uniformity flexibilities), mustidentify these providers with special characters and/or footnotes.  
+Plans that reduce or eliminate cost sharing for enrollees that use certain providers (e.g., through the use of MA uniformity flexibilities), must identify these providers with special characters 
+and/or footnotes.  
 
-Plans that tier cost sharing of medical benefits for certain providers must use special characters and/or footnotes indicating there are different cost sharing amounts for those providers. Plans must include language referring enrollees to the Evidence of Coverage (EOC) for more information. Plans are not required to use the word “tier” if they use different terminology to describe these cost sharing arrangements.
+Plans that tier cost sharing of medical benefits for certain providers must use special characters and/or footnotes indicating there are different cost sharing amounts for those providers. 
+Plans must include language referring enrollees to the Evidence of Coverage (EOC) for more information. Plans are not required to use the word “tier” if they use different terminology to describe 
+these cost sharing arrangements.
 
 **Best Practice to have the following elements in provider directory**
 - Machine readable content
@@ -82,6 +178,10 @@ Plans that tier cost sharing of medical benefits for certain providers must use 
 - Non-English languages spoken by provider
 - Provider website address
 - Accessibility for people with physical disabilitie
+
+### What is in the provider directory?
+#### Instroduction Section
+Provide a list of plan' network providers. Describe how enrollees should use this directory. 
 
 **Data Items for Provider Directory**
 
@@ -121,6 +221,33 @@ HSD requirements aim to protect beneficiaries by ensuring that they have access 
 
 **For example:**
 [2025-hsd-reference-file-update-12032024](https://view.officeapps.live.com/op/view.aspx?src=https%3A%2F%2Fwww.cms.gov%2Ffiles%2Fdocument%2F2025-hsd-reference-file-updated-12032024.xlsx&wdOrigin=BROWSELINK)
+
+
+## What is CMS PFFS?
+CMS PFFS refers to the Centers for Medicare & Medicaid Services (CMS) Private Fee-for-Service (PFFS) plans. PFFS plans are a type of Medicare Advantage (Part C) plan offered 
+by private insurance companies and approved by CMS. They provide Medicare benefits but operate differently from other Medicare Advantage plans like HMOs or PPOs.
+
+### Key Features of CMS PFFS Plans:
+1. Fee-for-Service Structure:  
+In a PFFS plan, the insurance company determines how much it will pay doctors, hospitals, and other healthcare providers, as well as how much the enrollee must pay for services.
+
+2. Provider Flexibility:  
+- Enrollees can see any doctor or healthcare provider who accepts the plan's terms and agrees to treat them.
+- Providers must agree to the plan's payment terms each time they deliver care.
+
+3. No Network Restrictions:  
+Unlike HMOs and PPOs, PFFS plans do not have a specific network of providers. However, not all providers may accept the plan’s payment terms.
+
+4. Covered Services:
+- PFFS plans must cover all Medicare Part A and Part B services.
+- Many PFFS plans also include prescription drug coverage (Part D).
+
+5. Cost-Sharing:  
+Enrollees are responsible for co-payments, coinsurance, and deductibles as specified by the plan.
+
+6. Regulatory Oversight:  
+CMS regulates PFFS plans to ensure they meet Medicare Advantage requirements and provide sufficient access to care.
+
 
 ## What are in HHS CMS-4208-p RIN [0938-AV40 ](https://www.govinfo.gov/content/pkg/FR-2024-12-10/pdf/2024-27939.pdf)
 
