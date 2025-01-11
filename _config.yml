@@ -18,6 +18,7 @@ header_pages:
   - index.md
   - qa.md
   - cms.md
+  - cmsDoc.md
   - about.md
 
 # Social Media Links (optional)

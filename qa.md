@@ -5,10 +5,10 @@ title: Question and Answer
 
 ## What data items are required by CMS for Provicer Directory
 ### Essential information
-- Provider Name: Full legal name of the provider (individual or organization).   
+- **Provider Name**: Full legal name of the provider (individual or organization).   
 - Provider Type: Type of healthcare professional (e.g., physician, nurse practitioner, therapist).
-- Specialties: Medical and surgical specialties.   
-- Addresses: Practice address, Mailing address (if different)
+- **Specialties**: Medical and surgical specialties.   
+- **Addresses**: Practice address, Mailing address (if different)
 - Phone Numbers: Office phone number, Fax number (if available)
 - Contact Information: Email address (if available), Website URL (if available)   
 - Network Participation: In-network status for the specific plan, Any applicable restrictions (e.g., limited network)
@@ -20,7 +20,9 @@ title: Question and Answer
 - Credentials: Medical degrees, Board certifications
 - Hospital Affiliations: Hospitals where the provider has admitting privileges
 - Accessibility: Information about accessibility features for patients with disabilities.   
-- Cultural and Linguistic Services: Availability of interpreters or other language support services.
+- **Cultural and Linguistic Services (maybe required in 2026)**: Availability of interpreters or other language support services.
+- **Specialties and Services offered (maybe required in 2026)**
+
 
 ### Important Notes
 - Accuracy: The information in the provider directory must be accurate and up-to-date.   
@@ -87,6 +89,47 @@ the capability to electronically move clinical information among different healt
 This information is collected in NPPES to facilitate the electronic exchange of health care information such as Medical records, order and referrals, etc., in a safe and secure fashion. 
 Providers are encouraged to enter Endpoint information in NPPES to promote interoperability in health care, however, this information is not required to obtain an NPI. 
 Providers can still obtain an NPI without providing such information.
+
+1. Endpoint Type  
+When entering an Endpoint, you are required to enter the Endpoint Type. Please select the Endpoint Type for the dropdown list. 
+The dropdown list includes the following:
+- Direct Messaging Address
+- SOAP URL
+- CONNECT URL
+- FHIR URL
+- RESTful URL
+- Other URL
+
+2. Endpoint 
+When entering an Endpoint, you are required to enter the actual Endpoint in an accurate and appropriate format.
+
+3. Endpoint Description  
+When entering an Endpoint, you can enter a brief description of the Endpoint to help identify the Endpoint.
+
+4. Endpoint Use 
+When entering an Endpoint, you can enter how the Endpoint will be used.
+
+5. Endpoint Content type
+When entering an Endpoint, you can enter the Content Type which can identify the format of the data.
+
+6. Is the Endpoint affiliated to another organization
+
+7. Endpoint Location  
+You can select the Endpoint Location from the list of addresses in the dropdown list, or select 
+“Enter a new Endpoint Location”. The list of addresses in the dropdown box will consist of all Practice 
+Location and Endpoint addresses associated with your NPI, as well as, the Practice Locations and 
+Endpoint Locations associated with the Endpoint Affiliated Organization if one has been selected from NPPES.
+
+If you select “Enter a new Endpoint Location” you can manually enter the Endpoint Location address. 
+This new location information will go through address standardization check and you will 
+have the option of choosing the standardized address or using the input address.
+
+8. Affiliation Legal Bussiness Name when Endpoint is affiliated to another organization
+
+9. Endpoint Affiliation Search 
+- Search based on NPI, EIN, and/or Legal Business Name 
+
+10. Endpoint Use Terms and conditions
 
 
 
